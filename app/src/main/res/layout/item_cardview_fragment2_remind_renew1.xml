@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_item_remindRenew"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_gravity="center"
+    android:layout_marginBottom="1dp"
+    card_view:cardBackgroundColor="@color/recycleView_BG">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_license_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/tv_name"
+            android:layout_below="@+id/tv_name"
+            android:layout_marginBottom="10dp"
+            android:gravity="bottom"
+            android:text="@string/recycleview_insuranceProcess_license_plate_head"
+            android:textColor="@color/cardview_text_description"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_license"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_status_head"
+            android:layout_alignParentEnd="false"
+            android:layout_below="@+id/tv_name"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@+id/tv_status_head"
+            android:layout_toRightOf="@+id/tv_license_head"
+            android:gravity="bottom"
+            android:text="@string/recycleview_insuranceProcess_license_plate_default"
+            android:textColor="@color/cardview_text_description"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_id_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/recycleview_insuranceProcess_id_head"
+            android:textColor="@color/cardview_text_head"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tv_id_head"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tv_id_head"
+            android:text="@string/recycleview_insuranceProcess_id_head_default"
+            android:textColor="@color/cardview_text_head"
+            android:textSize="18sp"
+            android:layout_alignEnd="@+id/tv_name" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignStart="@+id/tv_id_head"
+            android:layout_below="@+id/tv_id_head"
+            android:layout_marginRight="10dp"
+            android:text="@string/recycleview_insuranceProcess_id_head_default"
+            android:textColor="@color/cardview_text_description"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/tv_status_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/tv_name"
+            android:layout_marginBottom="10dp"
+            android:layout_toLeftOf="@+id/tv_status"
+            android:gravity="bottom"
+            android:text="@string/recycleview_insuranceProcess_status_head"
+            android:textColor="@color/cardview_text_description" />
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_status_head"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/tv_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="bottom"
+            android:text="@string/recycleview_insuranceProcess_id_head_default"
+            android:textColor="@color/cardview_text_description" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

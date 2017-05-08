@@ -1,0 +1,73 @@
+<resources>
+    <string name="sample_All_Round">180</string>
+    <string name="Recycleview_Next_Round">20</string>
+    <integer name="maxShowOfRound">5</integer>
+    <string name="load_All_Complete">โหลดข้อมูลทั้งหมดแล้ว</string>
+
+    <string name="app_name">SMK Agent</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Service -->
+    <string name="NAMESPACE">http://inet1.smk.co.th/</string>
+    <string name="URLWSDL">http://inet1.smk.co.th/ws_smkmobile/service.asmx?WSDL</string>
+    <string name="METHOD_GET_LOGIN_PASSWORD">Get_Login_Password</string>
+    <string name="SOAP_ACTION_GET_LOGIN_PASSWORD">http://inet1.smk.co.th/Get_Login_Password</string>
+
+    <!-- Strings of Navigation Drawer -->
+    <string name="drawer_group1_mainMenu">single</string>
+    <string name="drawer_group2_Aboutus">เกี่ยวกับ</string>
+
+    <!-- Put Extra Parameter -->
+    <string name="intent_parameter_id_user">id_user</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">Contacts permissions are needed for providing email completions.</string>
+    <string name="username">รหัสผู้ใช้</string>
+    <string name="password">รหัสผ่าน</string>
+    <string name="bt_login">เข้าสู่ระบบ</string>
+    <string name="et_loginId_error">รหัสผู้ใช้ไม่ถูกต้อง กรุณาใส่รหัสผู้ใช้ให้ครบถ้วน</string>
+    <string name="et_loginPass_error">รหัสผ่านไม่ถูกต้อง กรุณาใส่รหัสผ่านให้ครบถ้วน</string>
+    <string name="alert_loginError_title">ไม่สามารถเข้าสู่ระบบ </string>
+    <string name="alert_loginError_message">รหัสผู้ใช้หรือรหัสผ่านไม่ถูกต้อง กรุณาใส่ข้อมูลให้ถูกต้อง</string>
+
+    <!-- Strings related to Alert -->
+    <string name="alert_buttonConfirm">ยืนยัน</string>
+    <string name="alert_buttonCancle">ยกเลิก</string>
+
+    <!-- Strings related to Main Activity -->
+    <string name="title_activity_main">SMK Agent</string>
+    <string name="tabbar_pay_status">แจ้งเตือนต่ออายุ</string>
+    <string name="tabbar_check_process">ข้อมูลกรมธรรม์</string>
+    <string name="tabbar_commission_fee">คอมมิชชั่น</string>
+    <string name="title_activity_navigation">ActivityNavigation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- String recycleview of Insurance Process-->
+    <string name="recycleview_insuranceProcess_id_head">เลข กธ.</string>
+    <string name="recycleview_insuranceProcess_id_head_default">012-34-56789</string>
+    <string name="recycleview_insuranceProcess_no_process_default">0</string>
+    <string name="recycleview_insuranceProcess_status_head">สถานะ:</string>
+    <string name="recycleview_insuranceProcess_license_plate_head">ทะเบียน:</string>
+    <string name="recycleview_insuranceProcess_license_plate_default">xxxx</string>
+    <string name="recycleview_insuranceProcess_time_head">ช่วงวันคุ้มครอง</string>
+    <string name="recycleview_insuranceProcess_date_left_default">0</string>
+    <string name="recycleview_insuranceProcess_date_left_unit_default">วัน</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_navigation_drawer">ActivityNavigationDrawer</string>
+
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorGray">#b9b9b9</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="Login_BgTransparent">#82ffffff</color>
+    <color name="LoginButton_OK">#122c95</color>
+    <color name="LoginButton_Forget">#50122c95</color>
+    <color name="recycleView_BG">#f6f8ff</color>
+    <color name="cardview_text_head">#606060</color>
+    <color name="cardview_text_description">#8c8c8c</color>
+    <color name="cardview_bg2_red">#ff4c4c</color>
+    <color name="cardview_bg1_orange">#ff7400</color>
+    <color name="cardview_bg0_normal">#303F9F</color>
+    <color name="CallButton_bg">#3ae700</color>
+    <color name="AlertButton_Active">#ff6363</color>
+    <color name="AlertButton_NotActive">#bfbfbf</color>
+
+</resources>

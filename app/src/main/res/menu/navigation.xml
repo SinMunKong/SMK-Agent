@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/tabbar_remind_renew"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/tabbar_pay_status" />
+        <item
+            android:id="@+id/tabbar_insurance_process"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="@string/tabbar_check_process" />
+        <item
+            android:id="@+id/tabbar_commission_fee"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="@string/tabbar_commission_fee" />
+    </group>
+
+</menu>
