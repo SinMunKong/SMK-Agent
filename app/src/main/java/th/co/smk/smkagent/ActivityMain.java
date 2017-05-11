@@ -1,6 +1,7 @@
 package th.co.smk.smkagent;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -14,6 +15,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import layout.FragmentInsuranceProcess;
+import layout.FragmentMain;
 import layout.FragmentRemindRenew;
 
 
@@ -23,8 +25,9 @@ public class ActivityMain extends AppCompatActivity
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mToggle;
 
-    private FragmentInsuranceProcess insuranceProcess = new FragmentInsuranceProcess();
-    private FragmentRemindRenew remindRenew = new FragmentRemindRenew();
+    private FragmentInsuranceProcess insuranceProcessFragment = new FragmentInsuranceProcess();
+    private FragmentRemindRenew remindRenewFragment = new FragmentRemindRenew();
+    private FragmentMain mainFragment = new FragmentMain();
     //private FragmentManager fragmentManager = getSupportFragmentManager();
     private android.app.FragmentManager fragmentManager = getFragmentManager();
 
@@ -83,19 +86,21 @@ public class ActivityMain extends AppCompatActivity
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
             switch (item.getItemId()) {
                 case R.id.tabbar_insurance_process:
-                    transaction.replace(R.id.content, remindRenew);
+                    transaction.replace(R.id.content, remindRenewFragment);
                     transaction.commit();
                     nav_View.setCheckedItem(R.id.tabbar_insurance_process);
                     item.setChecked(true);
                     break;
                 case R.id.tabbar_remind_renew:
                     /*fragmentManager.beginTransaction().replace(R.id.content, remindRenew, remindRenew.getTag()).commit();*/
-                    transaction.replace(R.id.content, insuranceProcess);
+                    transaction.replace(R.id.content, insuranceProcessFragment);
                     transaction.commit();
                     nav_View.setCheckedItem(R.id.tabbar_remind_renew);
                     item.setChecked(true);
                     break;
                 case R.id.tabbar_commission_fee:
+                    transaction.replace(R.id.content, mainFragment);
+                    transaction.commit();
                     nav_View.setCheckedItem(R.id.tabbar_commission_fee);
                     item.setChecked(true);
                     break;
@@ -120,7 +125,11 @@ public class ActivityMain extends AppCompatActivity
                 nav_Bottom.setSelectedItemId(R.id.tabbar_insurance_process);
                 break;
             case R.id.tabbar_commission_fee:
+                nav_Bottom.setSelectedItemId(R.id.tabbar_commission_fee);
                 break;
+            case R.id.tabbar_calendar:
+                Intent intent = new Intent(this, ActivityCalendar.class);
+                startActivity(intent);
         }
         return false;
     }

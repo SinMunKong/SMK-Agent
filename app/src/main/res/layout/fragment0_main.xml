@@ -2,12 +2,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="layout.FragmentInsuranceProcess">
-
-    <!-- TODO: Update blank fragment layout -->
+    tools:context="layout.FragmentMain">
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/rv_InsuranceProcess"
+        android:id="@+id/rv_Main"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
 </LinearLayout>

@@ -52,6 +52,7 @@ public class FragmentInsuranceProcess extends Fragment {
             @Override
             public void onLoadMore() {
                 if (itemList.size() <= maxValueOfSize) {
+                    Toast.makeText(getActivity(), "On Load More", Toast.LENGTH_SHORT).show();
                     itemList.add(null);
                     adapter.notifyItemInserted(itemList.size() - 1);
                     new Handler().postDelayed(new Runnable() {

@@ -15,5 +15,9 @@
             android:icon="@drawable/ic_notifications_black_24dp"
             android:title="@string/tabbar_commission_fee" />
     </group>
+        <item
+        android:id="@+id/tabbar_calendar"
+        android:icon="@drawable/ic_menu_share"
+        android:title="Calendar" />
 
 </menu>
